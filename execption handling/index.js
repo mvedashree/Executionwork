@@ -62,6 +62,7 @@
 //     console.log("reached home");
     
 // }
+
 class MinorError extends Error{
     constructor(message,errorcode,suggestion){
         super(message)

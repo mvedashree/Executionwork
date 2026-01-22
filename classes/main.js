@@ -96,6 +96,7 @@
 //     }
 // }
 // let c=new Demo
+
 class Demo{
     a=78
     name="venu"

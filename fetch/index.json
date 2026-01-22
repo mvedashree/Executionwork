@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "0f27",
+      "name": "vada",
+      "email": "vada22@",
+      "phone": 2345678
+    },
+    {
+      "id": "a65f",
+      "name": "raga",
+      "email": "raga@",
+      "phone": 2345678
+    },
+    {
+      "id": "84a4",
+      "name": "raga1",
+      "email": "raga@",
+      "phone": 2345678
+    },
+    {
+      "id": "d53d",
+      "name": "cute",
+      "email": "cute@"
+    },
+    {
+      "id": "c584",
+      "name": "cute",
+      "email": "cute@"
+    }
+  ]
+}
