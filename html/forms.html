@@ -1,0 +1,112 @@
+<form action="store" method="GET" id="veda">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" minlength="5" maxlength="20" required size="10" pattern="[A-Za-z]+"  autofocus autocomplete="on" spellcheck="true" placeholder="Enter your name">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"minlength="5" maxlength="20" multiple required size="10" autocomplete="on" spellcheck="true" placeholder="Enter your email">
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" minlength="10" maxlength="10" required size="10"placeholder="Enter your phone">
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password" minlength="5" disabled maxlength="20" required size="10" autocomplete="on" placeholder="Enter your password">
+    </div>
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" checked value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+    </div>
+    <div>
+        <label>languages</label>
+        <input type="checkbox" name="languages" id="telugu" checked value="tel"><label for="telugu">Telugu</label>
+        <input type="checkbox" name="languages" id="english" checked value="eng"><label for="english">English</label>
+        <input type="checkbox" name="languages" id="hindi" value="hin"><label for="hindi">Hindi</label>
+    </div>
+    <div>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob" required min="2025-01-01" max="2025-01-27">
+    </div>
+    <div>
+        <label for="wakeuptime">wakeup time</label>
+        <input type="time" name="wakeuptime" id="wakeuptime" required min="10:00" max="12:00">
+    </div>
+    <div>
+        <label for="checkintime">checkin time</label>
+        <input type="datetime-local" name="checkintime" id="checkintime" required min="10:00" max="12:00">
+    </div>
+    <div>
+        <label for="checkouttime">checkout time</label>
+        <input type="datetime-local" name="checkouttime" id="checkouttime" required min="10:00" max="12:00">
+    </div>
+    <div>
+        <label for="birthmonth">birth month</label>
+        <input type="month" name="birthmonth" id="birthmonth" required min="2025-09" max="2025-10">
+    </div>
+    <div>
+        <label for="valantineweek">valantine week</label>
+        <input type="week" name="valantineweek" id="valantineweek" required min="2025-w01" max="2025-w03">
+    </div>
+    <div>
+        <label for="zipcode">Zipcode</label>
+        <input type="number" name="zipcode" id="zipcode" min="500000" max="999999" required size="10" autocomplete="on" placeholder="Enter your zipcode">
+    </div>
+    <div>
+        <label for="age">age</label>
+        <input type="range" name="age" id="age"  min="18" max="80" step="5" required>
+    </div>
+    <div>
+        <label for="color">Favorite color</label>
+        <input type="color" name="color" id="color" required minlength="4" maxlength="34">
+    </div>
+    <div>
+        <label for="socialmedia">social media</label>
+        <input type="url" name="socialmedia" id="socialmedia" placeholder="Enter your url" required minlength="30" maxlength="44">
+    </div>
+    <div>
+        <label for="intrests">intrests</label>
+        <input type="text" list="intrests list" name="intrests" id="intrests" minlength="5" maxlength="20" required size="20" autocomplete="on" spellcheck="true" >
+        <datalist id="intrests list">
+            <option value="cricket">i  will play cricket</option>
+            <option value="dance">i  will play dance</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="profilepic">profilepic</label>
+        <input type="file" name="profilepic" id="profilepic"required capture="user">
+    </div>
+    <div>
+        <label for="video">video</label>
+        <input type="file" name="video" id="video" multiple required capture="environment">
+    </div>
+    <div>
+        <label for="logo">logo</label>
+        <input type="image" src="image.png" width="200" name="logo" id="logo" accept="image/png">
+    </div>
+    <div>
+        <label for="hidden">hidden</label>
+        <input type="hidden" name="hidden" id="hidden" value="123">
+    </div>
+    <div>
+        <label for="place">PLace</label>
+        <select name="place" id="place">
+            <option value="hyderabad" selected >Hyderabd</option>
+            <option value="warangal">Warangal</option>
+        </select>
+    </div>
+    <div>
+        <label for="address">Addresss</label>
+        <textarea name="address" id="address" value="address" rows="20" cols="40"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="add user">
+        <input type="reset" value="clear">
+    </div>
+</form>
+<div>
+    <label for="surname">Surname</label>
+    <input type="text" name="surname" id="surname" minlength="5" maxlength="20" required size="10" pattern="[A-Za-z]+" autocomplete="on" spellcheck="true" placeholder="Enter your surname" form="veda">
+</div>
